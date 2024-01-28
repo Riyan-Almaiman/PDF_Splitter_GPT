@@ -1,0 +1,27 @@
+{
+  "name": "pdfsplitterocr",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^28.2.0",
+    "fs-extra": "^11.1.1",
+    "openai": "^4.20.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-poppler": "^0.2.1"
+  },
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext"
+  },
+  "include": [
+    "./**/*"
+  ]
+}
